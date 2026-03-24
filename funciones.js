@@ -15,7 +15,7 @@ function cargarCursos() {
                 <div class="content-card-button">
 
                     <button  class="button-course open-sans-button-card">
-                    <a href="curso-info.html?nombre=${curso.nombre}&imagen=${curso.imageCourse}&duracion=${curso.duracion}&jornada=${curso.jornada}&valor=${curso.valor}&descripcion=${curso.descripcion}&beneficios=${curso.beneficios}">Mas Información</a>
+                    <a href="curso-info.html?id=${curso.id}">Mas Información</a>
                     </button>
                 </div>
     `;

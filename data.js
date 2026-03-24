@@ -97,4 +97,36 @@ courses = [
         habilidades: ["Atención al Cliente", "Dispensación de Medicamentos", "Manejo de Inventarios", "Asesoramiento Farmacéutico", "Etiquetado y Envasado", "Registro y Documentación"],
         planEstudios: ["Logística Farmacéutica", "Principios de Farmacología", "Bioseguridad y Técnicas Asépticas", "Gestión de Farmacias", "Dispensación de Medicamentos", "Administración de Medicamentos e Inmunobiológicos", "Farmacología y Toxicología de los Medicamentos", "Seguridad del Paciente"]
     },
+    {
+        id: 9,
+        imageCourse: "img/electricidad.jpg",
+        nombre: "TECNICO EN ELECTRICIDAD",
+        duracion: "3 semestres",
+        jornada: "Diurna",
+        valor: "$260.000 MENSUAL",
+        descripcion: "Con este curso en técnico en electricidad obtendrás una formación completa, especializada y práctica que te permitirá hacerle frente a los desafíos del sector eléctrico e industrial, desarrollando competencias clave en instalación, mantenimiento y automatización, generando un impacto positivo en la seguridad, eficiencia energética y calidad de los proyectos eléctricos.",
+
+        beneficios: "El programa de técnico en electricidad cuenta con un conjunto de contenidos conceptuales y metodológicos de carácter interdisciplinar. Este programa te permitirá fortalecer tu visión en el diseño e interpretación de planos eléctricos, conocimientos de normatividad vigente y seguridad industrial, desarrollar habilidades de diagnóstico y solución de fallas, y gestionar proyectos de instalación y mantenimiento eléctrico en entornos residenciales, comerciales e industriales.",
+
+        habilidades: [
+            "Interpretación de Planos Eléctricos",
+            "Instalaciones Eléctricas Residenciales y Comerciales",
+            "Diagnóstico y Reparación de Fallas",
+            "Manejo de Normatividad y Seguridad",
+            "Automatización y Control Industrial",
+            "Eficiencia Energética",
+            "Gestión de Proyectos Eléctricos"
+        ],
+
+        planEstudios: [
+            "Fundamentos de Electricidad y Mediciones",
+            "Interpretación de Diagramas y Planos Eléctricos",
+            "Instalaciones Eléctricas Residenciales",
+            "Instalaciones Eléctricas Comerciales e Industriales",
+            "Normatividad Eléctrica y Seguridad Industrial",
+            "Motores y Control Industrial",
+            "Automatización y Sistemas de Control",
+            "Mantenimiento Preventivo y Correctivo"
+        ]
+    },
 ];
