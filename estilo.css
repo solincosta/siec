@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: #FFF;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    background-color: #ED3237;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #FFF solid;
+}
+
+.logo {
+
+    height: 100%;
+    margin: 0 2rem;
+}
+
+.navbar-main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+
+}
+
+.nav-item {
+    list-style: none;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.nav-item:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.open-sans-menu {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.open-sans-button {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.section-banner {
+    background-color: black;
+    position: relative;
+}
+
+.banner {
+    width: 80%;
+    margin: 0 10%;
+    height: 500px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.fondo{
+    background-color: #910000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.curso-name{
+    border: solid #FFF 2px;
+    padding: 1rem;
+    font-family: "Red Hat Display", sans-serif;
+    border-radius: 10px;
+}
+
+.curso-name-panel{
+    font-family: "Red Hat Display", sans-serif;
+}
+.button-suscribe {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    background-color: #ED3237;
+    color: aliceblue;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.button-suscribe:hover {
+    background-color: #000;
+    cursor: pointer;
+
+}
+
+.courses-panel {
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to right, #FF0000, #910000);
+}
+
+.content-courses {
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 1.5rem 0;
+}
+
+.card {
+
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-card {
+    height: 40%;
+    width: 100%;
+    background-color: #FFF;
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+.name-course {
+    height: 20%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 750;
+    background-color: #FFF;
+}
+
+.detail-course {
+    height: 20%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #FFF;
+}
+
+
+.content-card-button {
+    height: 20%;
+    padding: 10px;
+
+    background-color: #FFF;
+}
+
+.open-sans-button-card {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 650;
+    font-size: 1rem;
+}
+
+.open-sans-card {
+    font-family: "Red Hat Display", sans-serif;
+    color: #000;
+}
+
+.button-course {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    border: none;
+    padding: 10px 1.5rem;
+
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    border-top: 1px solid #FFF;
+    display: flex;
+    color: #FFF;
+}
+
+
+.footer-child {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info{
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.logo-footer {
+    height: 50%;
+    width: 50%;
+}
+
+.custom-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+.info-panel{
+    width: 80%;
+    margin: 1rem auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.details-course{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    gap: 4rem;
+    font-size: 1.2rem;
+}
+
+.item-course{
+    height: 100px;
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #ED3237;
+    color: aliceblue;
+}
+
+.content-learn{
+
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.item-learn{
+    background-color: #000;
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.content-plan{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: fit-content;
+}
+
+.item-plan{
+    background-color: #000;
+    color: aliceblue;
+    padding: 1rem;
+}
